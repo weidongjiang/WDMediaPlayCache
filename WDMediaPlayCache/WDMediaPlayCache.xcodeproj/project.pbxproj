@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C5700D025DE709100AFC5B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5700CF25DE709100AFC5B8 /* AppDelegate.m */; };
+		4C5700D325DE709100AFC5B8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5700D225DE709100AFC5B8 /* SceneDelegate.m */; };
+		4C5700D625DE709100AFC5B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5700D525DE709100AFC5B8 /* ViewController.m */; };
+		4C5700D925DE709100AFC5B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5700D725DE709100AFC5B8 /* Main.storyboard */; };
+		4C5700DB25DE709400AFC5B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C5700DA25DE709400AFC5B8 /* Assets.xcassets */; };
+		4C5700DE25DE709400AFC5B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5700DC25DE709400AFC5B8 /* LaunchScreen.storyboard */; };
+		4C5700E125DE709400AFC5B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5700E025DE709400AFC5B8 /* main.m */; };
+		4C5700EB25DE709400AFC5B8 /* WDMediaPlayCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5700EA25DE709400AFC5B8 /* WDMediaPlayCacheTests.m */; };
+		4C5700F625DE709500AFC5B8 /* WDMediaPlayCacheUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5700F525DE709500AFC5B8 /* WDMediaPlayCacheUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C5700E725DE709400AFC5B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C5700C325DE709100AFC5B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C5700CA25DE709100AFC5B8;
+			remoteInfo = WDMediaPlayCache;
+		};
+		4C5700F225DE709500AFC5B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C5700C325DE709100AFC5B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C5700CA25DE709100AFC5B8;
+			remoteInfo = WDMediaPlayCache;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C5700CB25DE709100AFC5B8 /* WDMediaPlayCache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WDMediaPlayCache.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5700CE25DE709100AFC5B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C5700CF25DE709100AFC5B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C5700D125DE709100AFC5B8 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4C5700D225DE709100AFC5B8 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4C5700D425DE709100AFC5B8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4C5700D525DE709100AFC5B8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4C5700D825DE709100AFC5B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C5700DA25DE709400AFC5B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C5700DD25DE709400AFC5B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C5700DF25DE709400AFC5B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C5700E025DE709400AFC5B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C5700E625DE709400AFC5B8 /* WDMediaPlayCacheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WDMediaPlayCacheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5700EA25DE709400AFC5B8 /* WDMediaPlayCacheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDMediaPlayCacheTests.m; sourceTree = "<group>"; };
+		4C5700EC25DE709400AFC5B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C5700F125DE709500AFC5B8 /* WDMediaPlayCacheUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WDMediaPlayCacheUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5700F525DE709500AFC5B8 /* WDMediaPlayCacheUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDMediaPlayCacheUITests.m; sourceTree = "<group>"; };
+		4C5700F725DE709500AFC5B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C5700C825DE709100AFC5B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5700E325DE709400AFC5B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5700EE25DE709500AFC5B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C5700C225DE709100AFC5B8 = {
+			isa = PBXGroup;
+			children = (
+				4C5700CD25DE709100AFC5B8 /* WDMediaPlayCache */,
+				4C5700E925DE709400AFC5B8 /* WDMediaPlayCacheTests */,
+				4C5700F425DE709500AFC5B8 /* WDMediaPlayCacheUITests */,
+				4C5700CC25DE709100AFC5B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C5700CC25DE709100AFC5B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C5700CB25DE709100AFC5B8 /* WDMediaPlayCache.app */,
+				4C5700E625DE709400AFC5B8 /* WDMediaPlayCacheTests.xctest */,
+				4C5700F125DE709500AFC5B8 /* WDMediaPlayCacheUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C5700CD25DE709100AFC5B8 /* WDMediaPlayCache */ = {
+			isa = PBXGroup;
+			children = (
+				4C5700CE25DE709100AFC5B8 /* AppDelegate.h */,
+				4C5700CF25DE709100AFC5B8 /* AppDelegate.m */,
+				4C5700D125DE709100AFC5B8 /* SceneDelegate.h */,
+				4C5700D225DE709100AFC5B8 /* SceneDelegate.m */,
+				4C5700D425DE709100AFC5B8 /* ViewController.h */,
+				4C5700D525DE709100AFC5B8 /* ViewController.m */,
+				4C5700D725DE709100AFC5B8 /* Main.storyboard */,
+				4C5700DA25DE709400AFC5B8 /* Assets.xcassets */,
+				4C5700DC25DE709400AFC5B8 /* LaunchScreen.storyboard */,
+				4C5700DF25DE709400AFC5B8 /* Info.plist */,
+				4C5700E025DE709400AFC5B8 /* main.m */,
+			);
+			path = WDMediaPlayCache;
+			sourceTree = "<group>";
+		};
+		4C5700E925DE709400AFC5B8 /* WDMediaPlayCacheTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C5700EA25DE709400AFC5B8 /* WDMediaPlayCacheTests.m */,
+				4C5700EC25DE709400AFC5B8 /* Info.plist */,
+			);
+			path = WDMediaPlayCacheTests;
+			sourceTree = "<group>";
+		};
+		4C5700F425DE709500AFC5B8 /* WDMediaPlayCacheUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C5700F525DE709500AFC5B8 /* WDMediaPlayCacheUITests.m */,
+				4C5700F725DE709500AFC5B8 /* Info.plist */,
+			);
+			path = WDMediaPlayCacheUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C5700CA25DE709100AFC5B8 /* WDMediaPlayCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C5700FA25DE709500AFC5B8 /* Build configuration list for PBXNativeTarget "WDMediaPlayCache" */;
+			buildPhases = (
+				4C5700C725DE709100AFC5B8 /* Sources */,
+				4C5700C825DE709100AFC5B8 /* Frameworks */,
+				4C5700C925DE709100AFC5B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WDMediaPlayCache;
+			productName = WDMediaPlayCache;
+			productReference = 4C5700CB25DE709100AFC5B8 /* WDMediaPlayCache.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C5700E525DE709400AFC5B8 /* WDMediaPlayCacheTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C5700FD25DE709500AFC5B8 /* Build configuration list for PBXNativeTarget "WDMediaPlayCacheTests" */;
+			buildPhases = (
+				4C5700E225DE709400AFC5B8 /* Sources */,
+				4C5700E325DE709400AFC5B8 /* Frameworks */,
+				4C5700E425DE709400AFC5B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C5700E825DE709400AFC5B8 /* PBXTargetDependency */,
+			);
+			name = WDMediaPlayCacheTests;
+			productName = WDMediaPlayCacheTests;
+			productReference = 4C5700E625DE709400AFC5B8 /* WDMediaPlayCacheTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C5700F025DE709500AFC5B8 /* WDMediaPlayCacheUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C57010025DE709500AFC5B8 /* Build configuration list for PBXNativeTarget "WDMediaPlayCacheUITests" */;
+			buildPhases = (
+				4C5700ED25DE709500AFC5B8 /* Sources */,
+				4C5700EE25DE709500AFC5B8 /* Frameworks */,
+				4C5700EF25DE709500AFC5B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C5700F325DE709500AFC5B8 /* PBXTargetDependency */,
+			);
+			name = WDMediaPlayCacheUITests;
+			productName = WDMediaPlayCacheUITests;
+			productReference = 4C5700F125DE709500AFC5B8 /* WDMediaPlayCacheUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C5700C325DE709100AFC5B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					4C5700CA25DE709100AFC5B8 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					4C5700E525DE709400AFC5B8 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 4C5700CA25DE709100AFC5B8;
+					};
+					4C5700F025DE709500AFC5B8 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 4C5700CA25DE709100AFC5B8;
+					};
+				};
+			};
+			buildConfigurationList = 4C5700C625DE709100AFC5B8 /* Build configuration list for PBXProject "WDMediaPlayCache" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C5700C225DE709100AFC5B8;
+			productRefGroup = 4C5700CC25DE709100AFC5B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C5700CA25DE709100AFC5B8 /* WDMediaPlayCache */,
+				4C5700E525DE709400AFC5B8 /* WDMediaPlayCacheTests */,
+				4C5700F025DE709500AFC5B8 /* WDMediaPlayCacheUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C5700C925DE709100AFC5B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5700DE25DE709400AFC5B8 /* LaunchScreen.storyboard in Resources */,
+				4C5700DB25DE709400AFC5B8 /* Assets.xcassets in Resources */,
+				4C5700D925DE709100AFC5B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5700E425DE709400AFC5B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5700EF25DE709500AFC5B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C5700C725DE709100AFC5B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5700D625DE709100AFC5B8 /* ViewController.m in Sources */,
+				4C5700D025DE709100AFC5B8 /* AppDelegate.m in Sources */,
+				4C5700E125DE709400AFC5B8 /* main.m in Sources */,
+				4C5700D325DE709100AFC5B8 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5700E225DE709400AFC5B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5700EB25DE709400AFC5B8 /* WDMediaPlayCacheTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5700ED25DE709500AFC5B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5700F625DE709500AFC5B8 /* WDMediaPlayCacheUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C5700E825DE709400AFC5B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C5700CA25DE709100AFC5B8 /* WDMediaPlayCache */;
+			targetProxy = 4C5700E725DE709400AFC5B8 /* PBXContainerItemProxy */;
+		};
+		4C5700F325DE709500AFC5B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C5700CA25DE709100AFC5B8 /* WDMediaPlayCache */;
+			targetProxy = 4C5700F225DE709500AFC5B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C5700D725DE709100AFC5B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C5700D825DE709100AFC5B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C5700DC25DE709400AFC5B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C5700DD25DE709400AFC5B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C5700F825DE709500AFC5B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C5700F925DE709500AFC5B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C5700FB25DE709500AFC5B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZPP94SLYH;
+				INFOPLIST_FILE = WDMediaPlayCache/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hetao101.WDJPEGEncoder.com.WDMediaPlayCache;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C5700FC25DE709500AFC5B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZPP94SLYH;
+				INFOPLIST_FILE = WDMediaPlayCache/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hetao101.WDJPEGEncoder.com.WDMediaPlayCache;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4C5700FE25DE709500AFC5B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZPP94SLYH;
+				INFOPLIST_FILE = WDMediaPlayCacheTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hetao101.WDJPEGEncoder.com.WDMediaPlayCacheTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WDMediaPlayCache.app/WDMediaPlayCache";
+			};
+			name = Debug;
+		};
+		4C5700FF25DE709500AFC5B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZPP94SLYH;
+				INFOPLIST_FILE = WDMediaPlayCacheTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hetao101.WDJPEGEncoder.com.WDMediaPlayCacheTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WDMediaPlayCache.app/WDMediaPlayCache";
+			};
+			name = Release;
+		};
+		4C57010125DE709500AFC5B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZPP94SLYH;
+				INFOPLIST_FILE = WDMediaPlayCacheUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hetao101.WDJPEGEncoder.com.WDMediaPlayCacheUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WDMediaPlayCache;
+			};
+			name = Debug;
+		};
+		4C57010225DE709500AFC5B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZPP94SLYH;
+				INFOPLIST_FILE = WDMediaPlayCacheUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hetao101.WDJPEGEncoder.com.WDMediaPlayCacheUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WDMediaPlayCache;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C5700C625DE709100AFC5B8 /* Build configuration list for PBXProject "WDMediaPlayCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5700F825DE709500AFC5B8 /* Debug */,
+				4C5700F925DE709500AFC5B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C5700FA25DE709500AFC5B8 /* Build configuration list for PBXNativeTarget "WDMediaPlayCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5700FB25DE709500AFC5B8 /* Debug */,
+				4C5700FC25DE709500AFC5B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C5700FD25DE709500AFC5B8 /* Build configuration list for PBXNativeTarget "WDMediaPlayCacheTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5700FE25DE709500AFC5B8 /* Debug */,
+				4C5700FF25DE709500AFC5B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C57010025DE709500AFC5B8 /* Build configuration list for PBXNativeTarget "WDMediaPlayCacheUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C57010125DE709500AFC5B8 /* Debug */,
+				4C57010225DE709500AFC5B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C5700C325DE709100AFC5B8 /* Project object */;
+}
